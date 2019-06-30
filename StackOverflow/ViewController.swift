@@ -14,14 +14,6 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		mainCurveView.addBottomRoundedEdge(desiredCurve: 1.5)
-
-	}
-	
-	override func viewDidLayoutSubviews() {
-		mainCurveView.layer.shadowRadius = 10
-		mainCurveView.layer.shadowOpacity = 1
-		mainCurveView.layer.shadowColor = UIColor.gray.cgColor
-		mainCurveView.layer.shadowOffset = CGSize(width: 0 , height:2)
 	}
 }
 
